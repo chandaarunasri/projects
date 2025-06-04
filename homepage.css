@@ -99,8 +99,6 @@ nav{
 
     /* Nav bar ends Here */
 
-
-
     /* log in page starts here */
 
 
@@ -508,3 +506,156 @@ nav{
 }
 
 /* media queries for featured products ends here */
+
+/* top products starts here */
+
+.top-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box -90;
+}
+
+.top-products h4 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+/* Filter Buttons */
+.top-products ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.top-products ul li:first-child{
+    background-color: #ff3c3c;
+
+}
+
+.top-products ul li {
+    background-color: #222;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.top-products ul li:hover,
+.top-products ul li.active {
+    background-color: #ff3c3c;
+    color: white;
+}
+
+/* Cards Container */
+.top-products-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Individual Product Card */
+.top-product {
+    width: 250px;
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.top-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 60, 60, 0.2);
+}
+
+/* Product Image */
+.top-product img {
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.top-product .rating{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+
+.top-product .rating i.fa-star{
+    color: #ff3c3c;
+}
+
+/* Product Text */
+.top-product h6 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.top-product p {
+    font-size: 13px;
+    color: #a09e9e;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.top-product hr{
+    color: whitesmoke;
+}
+
+/* Price Styling */
+.top-product .price {
+    color: white;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.top-product .price span {
+    color: #a09e9e;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+/* Button */
+.top-product .add-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #ff3c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.top-product .add-btn:hover {
+    background-color: #e23232;
+}
+
+.top-product.browse-card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.top-product.browse-card p{
+  font-size: x-large;
+  color: whitesmoke;
+}
+
+/* Top Products Ends Here */
