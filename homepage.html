@@ -11,15 +11,142 @@
     <link rel="stylesheet" href="./homepage.css">
 </head>
 <body>
-    <!-- navbar starts here-->
-     <header>
+     <!-- navbar starts here -->
+    <header>
         <nav>
-            <div class="logo"><h3>tech-shop</h3></div>
-            <h2>Hello!</h2>
-            </nav>
+            <div class="logo"><h3>Tech-Shop</h3></div>
+            <div class="navbar">
+                <div class="search-icon">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <p class="tool-tip">Search</p>
+                </div>
+                <div class="cart-icon">
+                     <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                     <p class="tool-tip">Cart</p>
+                </div>
+                <div class="profile-icon">
+                     <a href=""><i class="fa-solid fa-user"></i></a>
+                     <div class="profilecard">
+                        <h2>Hello!</h2>
+                        <p>Access account and manage orders</p>
+                        <button class="loginbutton">Login/Signup</button>
+                        <hr>
+                        <p>Please Login</p>
+                     </div>
+                </div>
+            </div>
         </nav>
-     </header>
-     <!--navbar ends here-->
+    </header>
+    <!-- navbar ends here -->
      
+     <!--carosel , Hero Section HTML -->
+     <section class="hero-section">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+     <!-- Slide 1 -->More actions
+      <div class="carousel-item active">
+        <div class="hero-content">
+          <div class="text-content">
+            <h4>boAt Airdopes 131</h4>
+            <p>Featherweight For <br> Comfort All-Day</p>
+            <pre><span class="price"> ₹1,099 </span><strike>₹2,999</strike></pre>
+            <button class="shop-btn">Shop Now</button>
+          </div>
+          <div class="image-content">
+            <img src="/images/Products/boat131-3.png" alt="boAt Airdopes" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="hero-content">
+          <div class="text-content">
+            <h4>Sony WH-XB910N</h4>
+            <p>Give Your Favourite<br> Music A Boost.</p>
+            <pre><span class="price"> ₹13,489 </span><strike>₹19,990</strike></pre>
+            <button class="shop-btn">Shop Now</button>
+          </div>
+          <div class="image-content">
+            <img src="/images/Products/sonyXb910n-1.png" alt="Sony WH-XB910N" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="hero-content">
+          <div class="text-content">
+            <h4>JBL Live 660NC</h4>
+            <p>Keep The Noise Out, Or<br> In. You Choose.</p>
+            <pre><span class="price"> ₹9,999 </span><strike>₹14,999</strike></pre>
+            <button class="shop-btn">Shop Now</button>
+          </div>
+          <div class="image-content">
+            <img src="/images/Products/jbl660nc-1.png" alt="JBL Live 660NC" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- carosel,hero section ends here -->
+
+
+<!-- Featured products starts here -->
+     <div class="featuredproducts">
+      <h2>Featured Products</h2>
+
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+
+         </div>
+        <div class="featureheading" >  
+
+            <div class="featuredcards">
+              <h4>JBL Endurance Run Sports</h4>
+              <img src="/images/Products/jbl-endu-1.png" alt="">
+               <pre><span class="price"> ₹13,489 </span><strike>₹19,990</strike></pre>
+            </div>
+            <div class="featuredcards">
+              <h4>boAt Airdopes 203</h4>
+              <img src="/images/Products/boat203-1.png" alt="">
+               <pre><span class="price"> ₹13,489 </span><strike>₹19,990</strike></pre>
+            </div >
+            <div class="featuredcards">
+              <h4>boAt Rockerz 518</h4>
+              <img src="/images/Products/boat518-1.png" alt="">
+               <pre><span class="price"> ₹13,489 </span><strike>₹19,990</strike></pre>
+            </div>
+            <div class="featuredcards">
+              <h4>JBL Tune 760NC</h4>
+              <img src="/images/Products/boat518-1.png" alt="">
+               <pre><span class="price"> ₹13,489 </span><strike>₹19,990</strike></pre>
+            </div>
+            <div class="featuredcards">
+              <h4>boAt Rockerz 255</h4>
+              <img src="/images/Products/boat255r-1.png" alt="">
+               <pre><span class="price"> ₹13,489 </span><strike>₹19,990</strike></pre>
+            </div>
+        </div>
+      </div>
+     </div>
+
+
+     <!-- Feature products ends here -->
 </body>
 </html>
