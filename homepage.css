@@ -659,3 +659,100 @@ nav{
 }
 
 /* Top Products Ends Here */
+
+/* Our Advantages Starts here */
+
+.advantages{
+  margin: bottom 70px;
+}
+
+.advantages h2{
+  color:white;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+
+
+.delivery{
+  display: flex;
+  margin: 50px;
+}
+
+.delivery i{
+  color: red;
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.delivery h5{
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+}
+.delivery p{
+  color: #444;
+  margin-left: 20px;
+}
+.fonticon{
+  display: flex;
+  justify-content: center;
+}
+
+/* Our Advantages Ends Here */
+
+/* media queries for our advantages starts here */
+
+
+/*phones */
+
+ @media(max-width: 480px){
+  .fonticon{
+    flex-direction: column;
+    align-items: center;
+  } 
+  .delivery{
+    flex-direction: row;
+    width: 90%;
+  }
+
+    .advantages h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+
+ /*Tablets (portrait & landscape) */
+  @media (min-width: 481px) and (max-width: 768px) {
+  .fonticon {
+    justify-content: center;
+  }
+
+  .delivery {
+    width: 80%;
+  }
+}
+
+/* Small Laptops & Large Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .delivery {
+    width: 45%;
+  }
+} 
+
+/* Desktops */
+@media (min-width: 1025px) {
+  .delivery {
+    width: 22%;
+  }
+
+  .advantages h2 {
+    font-size: 2.5rem;
+  }
+}
+/* media queries for our advantages ends here */
