@@ -757,12 +757,12 @@ nav{
   }
 }
 /* media queries for our advantages ends here */
-
 /* footer starts here */
 
 
 .footerstart{
   display: flex;
+  margin-bottom: 30px;
 }
 .content {
   height: 200px;
@@ -776,6 +776,19 @@ nav{
 
 .content li,p{
   color: #444;
+}
+.content li{
+    margin: 10px;
+}
+
+.content input{
+    height:40px ;
+    width: 270px;
+}
+.content button{
+    height: 40px;
+    width: 150px;
+
 }
 
 .footerstart .content input{
@@ -793,13 +806,16 @@ nav{
 }
 
 .footer hr{
-  margin-top: 50px;
-  border: 1px solid #444;
+  
+  border: 1px solid #474545
 
 }
 
 .footerend{
-  display:flex;
+  display:flex ;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 .footerend .copyrights p{
   color: white;
@@ -811,9 +827,14 @@ nav{
   margin-right: 100px;
   color: white;
 }
+.footerstart{
+    margin-bottom: 50px;
+}
 
 
 /* footer ends here */
+
+
 
 
 /* media queries for footer starts here */
