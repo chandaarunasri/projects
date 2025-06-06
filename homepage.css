@@ -560,12 +560,12 @@ nav{
 .top-products-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
 }
 
 /* Individual Product Card */
 .top-product {
-    width: 250px;
+    width: 300px;
     color: white;
     border: 1px solid #ffffff;
     padding: 20px;
@@ -696,12 +696,13 @@ nav{
 
 }
 .delivery p{
-  color: #444;
+  color: #4a4444;
   margin-left: 20px;
 }
 .fonticon{
   display: flex;
   justify-content: center;
+
 }
 
 /* Our Advantages Ends Here */
@@ -756,3 +757,135 @@ nav{
   }
 }
 /* media queries for our advantages ends here */
+
+/* footer starts here */
+
+
+.footerstart{
+  display: flex;
+}
+.content {
+  height: 200px;
+  width: 400px;
+  margin-left: 100px;
+}
+.content h3,h5{
+  color: white;
+  margin-bottom: 40px;
+}
+
+.content li,p{
+  color: #444;
+}
+
+.footerstart .content input{
+  background-color: black;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  color: #444;
+}
+
+.footerstart .content button{
+  color: white;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.footer hr{
+  margin-top: 50px;
+  border: 1px solid #444;
+
+}
+
+.footerend{
+  display:flex;
+}
+.footerend .copyrights p{
+  color: white;
+}
+
+.footerfonts{
+  display: flex;
+  gap: 30px;
+  margin-right: 100px;
+  color: white;
+}
+
+
+/* footer ends here */
+
+
+/* media queries for footer starts here */
+
+/* Small Devices: Mobile phones */
+ @media (max-width: 480px) {
+  .footerstart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerend {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footerfonts {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
+
+
+/* Medium Devices: Tablets */
+ @media (min-width: 481px) and (max-width: 768px) { 
+  .footerstart {
+    justify-content: space-around;
+  }
+
+  .footerend {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footerfonts {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+
+/* Large Tablets & Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footerstart {
+    justify-content: space-evenly;
+  }
+
+  .footerfonts {
+    margin-left: 0;
+  }
+
+  .footerend {
+    justify-content: space-between;
+  }
+} 
+
+/* Desktops and Up */
+ @media (min-width: 1025px) {
+  .footerstart {
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
+
+  .footerend {
+    justify-content: space-between;
+  }
+
+  .footerfonts {
+    margin-left:auto;
+  }
+}  
+
+/* media queries for footer ends here */
