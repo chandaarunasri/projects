@@ -402,7 +402,6 @@ nav{
 
 /* hero,carosel section ends here */
 /* Featured products Starts here */
-
 .featured-products {
     width: 60vw;
     overflow: hidden;
@@ -483,6 +482,12 @@ nav{
     margin: 0 3px;
     cursor: pointer;
 }
+
+.indicators button.active {
+    background-color: white;
+    box-shadow: 0 0 0 2px #ff3c3c;
+}
+
 
 /* top products starts here */
 
