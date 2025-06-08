@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -212,12 +212,12 @@ nav{
   background-color: #db4437;
 }
 
-.twit {
+.twi {
   background-color: skyblue;
 } 
 
-
 /* login page ends here */
+
 
 /* signin page starts here  */
 
@@ -277,7 +277,6 @@ nav{
 }
 
 /* sign in  page ends here */
-
 
 
 /* main starts here */
@@ -469,7 +468,7 @@ main {
 /* main ends here */
 
 
-    /* footer starts here */
+/* footer starts here */
 
 
 .footerstart{
