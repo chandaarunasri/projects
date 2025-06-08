@@ -98,18 +98,118 @@ nav{
 }
 
     /* Nav bar ends Here */
+    /* media queries for navbar starts here */
+
+/* Medium Phones (376px–575px) */
+@media (max-width: 575px) {
+  nav {
+
+    align-items: flex-start;
+  }
+
+  .navbar {
+    gap: 15px;
+  }
+}
+
+/* Large Phones and Small Tablets (576px–767px) */
+@media (max-width: 767px) {
+  .navbar {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .profilecard {
+    width: 80vw;
+  }
+}
+
+/* Tablets (768px–991px) */
+@media (max-width: 991px) {
+  .navbar {
+    gap: 20px;
+  }
+
+  .logo h3 {
+    font-size: 22px;
+  }
+
+  .tool-tip {
+    display: none !important;
+  }
+}
+
+/* Laptops (992px–1199px) */
+@media (max-width: 1199px) {
+  nav {
+    padding: 10px 30px;
+  }
+
+  .profilecard {
+    width: 240px;
+  }
+}
+
+/* Desktops (≥ 1200px) */
+@media (min-width: 1200px) {
+  .navbar {
+    gap: 30px;
+  }
+
+  .logo h3 {
+    font-size: 26px;
+  }
+}
+
+/* Large Screens (4K and above) */
+@media (min-width: 1920px) {
+  .logo h3 {
+    font-size: 32px;
+  }
+
+  .navbar i {
+    font-size: 24px;
+  }
+
+  .profilecard {
+    font-size: 16px;
+  }
+}
+
+
+/* media queries for nav bar ends here */
+
 
     /* log in page starts here */
 
 
 .login {
-    margin: 0 auto;
+  margin: 0 auto;
   background-color: #1e1e1e;
   padding: 30px 25px;
   border-radius: 8px;
   color: #fff;
   width: 320px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 999;
+  left: 35%;
+  display: none;
+}
+
+.login p a{
+  position: static;
+  text-decoration: none;
+  color: #ff3c3c;
+}
+
+.login a{
+  position: absolute;
+  right: 0;
+  top: -10px;
+  text-decoration: none;
+  color: white;
 }
 
 .login h4 {
@@ -198,6 +298,65 @@ nav{
 
 /* login page ends here */
 
+/* signin page starts here  */
+
+
+.signin {
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  padding: 30px 25px;
+  border-radius: 8px;
+  color: #fff;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 999;
+  left: 35%;
+  display:flex;
+}
+
+.signin p a{
+  position: static;
+  color: #ff3c3c;
+}
+
+.signin a{
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: -10px;
+  right: 0;
+}
+
+.signin input {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+}
+
+.signin button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+} 
+
+#login:target,
+#signup:target{
+  display: block;
+}
+
+/* sign in  page ends here */
+
 /* media queries for navbar starts here */
 
 /* Medium Phones (376px–575px) */
@@ -279,6 +438,7 @@ nav{
 
 
 /* media queries for nav bar ends here */
+
 
 /* hero,carosel section starts here */
 
